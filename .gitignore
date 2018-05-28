@@ -1,0 +1,3 @@
+# Miscellanous items we shouldn't keep
+.idea
+.DS_Store
