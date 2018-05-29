@@ -1,3 +1,3 @@
-# bamboo-python36
+# python36
 
-Dockerfile for python36 on amazonlinux, automated build for  https://hub.docker.com/r/cloudtrekau/python36/
+Bamboo Docker Runner for building Python 3.6 application.
