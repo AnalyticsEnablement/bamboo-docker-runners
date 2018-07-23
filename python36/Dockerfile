@@ -1,6 +1,7 @@
 FROM amazonlinux:1
 
 RUN yum -y install python36 python36-devel python36-virtualenv \
+    aws-cli \
     zip unzip \
     git docker vim jq \
     && yum clean all \
