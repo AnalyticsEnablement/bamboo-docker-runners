@@ -9,4 +9,5 @@ RUN yum -y install python36 python36-devel python36-virtualenv \
     git docker vim jq \
     openldap-devel gcc-c++ \
     && yum clean all \
-    && pip-3.6 install --no-cache-dir awscli aws-sam-cli pipenv pipfile-requirements
+    && pip-3.6 install --no-cache-dir awscli aws-sam-cli pipenv pipfile-requirements \
+    && pip install --upgrade pip
