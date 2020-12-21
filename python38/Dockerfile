@@ -10,4 +10,5 @@ ENV LC_ALL=en_US.utf-8
 RUN yum -y install \
     vim jq openldap-devel \
     && yum clean all \
-    && pip install --no-cache-dir aws-sam-cli
+    && pip install --no-cache-dir aws-sam-cli \
+    && pip install --upgrade pip
